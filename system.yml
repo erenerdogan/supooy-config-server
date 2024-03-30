@@ -1,6 +1,7 @@
 management:
   endpoints:
     web:
+      base-path: "{cipher}a41e0aafbfbeea53597ae15cfa2399cdfd366510e9df109d068cb15681fa5116"
       exposure:
         include: "*"
   health:
