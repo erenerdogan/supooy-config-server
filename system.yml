@@ -1,23 +1,23 @@
-management:
-  endpoints:
-    web:
-      base-path: "{cipher}19cb31d6e4708d6f514961ff9e921e286deaab9694a1c95a84ac673dc16168a4"
-      exposure:
-        include: "*"
-  health:
-    readiness-state:
-      enabled: true
-    liveness-state:
-      enabled: true
-  endpoint:
-    shutdown:
-      enabled: true
-    health:
-      probes:
-        enabled: true
-  info:
-    env:
-      enabled: true
-  metrics:
-    tags:
-      application: ${spring.application.name}
+#management:
+#  endpoints:
+#    web:
+#      base-path: "{cipher}19cb31d6e4708d6f514961ff9e921e286dea#ab9694a1c95a84ac673dc16168a4"
+#      exposure:
+#        include: "*"
+#  health:
+#    readiness-state:
+#      enabled: true
+#    liveness-state:
+#      enabled: true
+#  endpoint:
+#    shutdown:
+#      enabled: true
+#    health:
+#      probes:
+#        enabled: true
+#  info:
+#    env:
+#      enabled: true
+#  metrics:
+#    tags:
+#      application: ${spring.application.name}
